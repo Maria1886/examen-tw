@@ -1,0 +1,14 @@
+Pentru a rula proiectul trebuie sa creati un fisier .env in root-ul serverului si sa il populati cu:
+
+PORT=5000
+DB_USER=/your db user/
+DB_PASSWORD=/db user password/
+DB_NAME=/db name/
+DB_PORT=/db port - if changed/
+DB_HOST=localhost
+
+Baza de date trebuie sa fie Postgres.
+
+Serverul apoi se porneste prin 'npm i' si 'npm start'.
+
+Proiectul de client poate fi rulat doar prin `npm i` si apoi `npm start`.
